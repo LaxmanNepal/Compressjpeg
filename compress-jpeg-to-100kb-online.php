@@ -1,5 +1,5 @@
-<?php include("./brand.php"); ?>
-<?php include("./helper.php"); ?>
+<?php include("https://github.com/lnn1053/Compressjpeg/blob/main/brand.php"); ?>
+<?php include("https://github.com/lnn1053/Compressjpeg/blob/main/helper.php"); ?>
 
 <!DOCTYPE html>
 <html>
