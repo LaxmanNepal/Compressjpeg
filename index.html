@@ -1,17 +1,16 @@
+<!doctype html>
 
-<!DOCTYPE html>
-<html>
-<head><?php include("./brand.php"); ?>
-<?php include("./helper.php"); ?>
+<?php include("https://raw.githubusercontent.com/lnn1053/Compressjpeg/main/brand.php"); ?>
+<?php include("https://raw.githubusercontent.com/lnn1053/Compressjpeg/main/helper.php"); ?>
 
-	<?php include("./head.php"); ?>
-	<title><?php echo $main_title; ?></title>
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<?php include("https://raw.githubusercontent.com/lnn1053/Compressjpeg/main/head.php"); ?>
+	<?php echo $main_title; ?>
 	
-</head>
-<body>
-<?php include("./header.php"); ?>
+	
+	
+</?php></?php></?php>
+
+<?php include("https://raw.githubusercontent.com/lnn1053/Compressjpeg/main/header.php"); ?>
 
 <div class="container">
 	
@@ -22,11 +21,12 @@
 	<div class='row' style='border: 1px solid #CCC; margin: 10px; padding: 10px; box-shadow: 2px 2px 0px 0px #CCC; border-radius: 10px; overflow: hidden;'>	
 		<div style='text-align: center; margin: 10px;'>
 			<?php
-				if(isset($_POST['submit'])) {
-						uploadAndCompress(100-$_POST['compression_percentage']);
+				if(isset($_post['submit'])) {
+						uploadandcompress(100-$_post['compression_percentage']);
 				}
 			?>
-		</div>
+		</?php
+></div>
 
 		<div class="row" style='text-align: center; border: 1px dashed #CCC; padding: 20px; max-width: 1200px; margin: 20px auto; border-radius: 10px;'>
 			<form action="" method="post" enctype="multipart/form-data">
@@ -35,7 +35,7 @@
 				<tr>
 					<input type="file" class="form-control-file" name="fileToUpload" id="fileToUpload" required />
 					<input class="btn btn-primary" type="submit" value="Compress Image" name="submit" style='margin: 10px;' />
-					<input type="range" value="60" min="0" max="100" oninput="document.getElementById('output').value = this.value" name="compression_percentage">
+					<input type="range" value="60" min="0" max="100" oninput="document.getElementById(&#39;output&#39;).value = this.value" name="compression_percentage" />
 					<span style='color: #777; font-size: 12px;'><output id='output'> 60</output>% Compression</span>
 				</tr>
 				</tbody>
@@ -47,7 +47,7 @@
 	<hr />
 	
 	<div class="row">
-		<img src='./img/main_page.png' style="max-width: 750px; margin-bottom: 20px;" class="rounded mx-auto d-block" alt="" />
+		<img src='https://github.com/lnn1053/Compressjpeg/blob/main/img/main_page.png' style="max-width: 750px; margin-bottom: 20px;" class="rounded mx-auto d-block" alt="" />
 		<h2 class='display-6'>How to convert PNG to JPG</h2>
 		<p>
 			<ol>
@@ -71,10 +71,10 @@
 	</div>
 </div>
 	
-<?php include("./footer.php"); ?>
+<?php include("https://raw.githubusercontent.com/lnn1053/Compressjpeg/main/footer.php"); ?>
 
 
 
 
-</body>
-</html>
+</?php></?php>
+</?php></!doctype>
